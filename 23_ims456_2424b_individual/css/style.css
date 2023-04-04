@@ -1,0 +1,17 @@
+h1
+    {
+        color:rgb(226, 43, 150);
+
+    }
+
+h1:hover
+    
+    {
+        color:black;
+        font-size:30pt;
+     }
+h2
+    {
+        color:aquamarine;
+
+    }
