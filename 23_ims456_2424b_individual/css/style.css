@@ -1,17 +1,30 @@
 h1
     {
         color:rgb(226, 43, 150);
+        
 
     }
 
-h1:hover
+a
     
     {
-        color:black;
-        font-size:30pt;
+        font-size: 20pt;
+        padding-right: 30px;
+        text-decoration: none;
+        font-family: century;
+        color: rgb(109, 72, 151);
+        font-weight: 600;
      }
-h2
-    {
-        color:aquamarine;
 
-    }
+a:hover
+{
+    color:rgb(134, 89, 175);
+    background-color:brown
+}
+
+     h2
+     {
+        color:rgb(67, 119, 90);
+        font-size: 24pt;
+        font-family: arial;
+     }
