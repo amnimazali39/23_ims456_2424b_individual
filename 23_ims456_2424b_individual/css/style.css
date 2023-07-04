@@ -7,6 +7,7 @@ h1
     {
         color: black;
         font-size: 40pt;
+        text-align: center;
     
     }
 
@@ -113,40 +114,34 @@ a:hover
     float: left; 
     }
 
-table, tr, td, th
-    {
-        border:2px solid darkblue;
-        border-collapse: collapse;
-        margin: auto;
-    }   
-
-td
-    {
-    padding:5px  
-    }   
-
-th
-    {
-        background-color: rgb(186, 212, 194);
-        color:black;
-    }
-
-tr  
-    {
-        background-color:rgb(64, 166, 184);
-    }
-
-tr:nth-child(odd)
-    {
-        background-color: aquamarine;
-    }
-
-tr:hover
-    {
-        background-color: antiquewhite;
-    }
-h3
-    {
+    h3 {
         color: black;
         text-align: center;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+        padding: 12px 15px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #f7f7f7;
+        font-weight: bold;
+    }
+
+    tr:hover {
+        background-color: #f4f4f4;
+    }
+
+    td:first-child
+    {
+        font-weight: bold;
     }
